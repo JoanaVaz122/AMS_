@@ -93,10 +93,10 @@
   <folder name="Views" id="id-0b72e039194a4851b9a4c329d5da2b86" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-77e7b28121b74824924293dba801cf97">
       <child xsi:type="archimate:DiagramObject" id="id-69f2e1841d6e4da3b7b219b8bd8d4e85" targetConnections="id-6c984fcc46b547bca81509a2c22e72c5" archimateElement="id-72ed563016a44666a9fcf2e23b446876">
-        <bounds x="576" y="360" width="120" height="55"/>
+        <bounds x="576" y="396" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-062290d015554359b67bef37a4c9d5c0" targetConnections="id-eba77dab0940486186a733d55169fd10" archimateElement="id-9850700bf73d404f9605317ba3a68ae5">
-        <bounds x="396" y="360" width="120" height="55"/>
+        <bounds x="396" y="396" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-0609c47823e54299b01044aad83e4865" targetConnections="id-f60a39b131f84104a38aa96cbb1dae34 id-d7c362c14c264429a22b113159749228" archimateElement="id-f86b0f1fde0d4575b7a5b50a9947f179">
         <bounds x="480" y="264" width="120" height="55"/>

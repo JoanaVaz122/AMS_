@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="A4.1" id="id-92191888593d4a3fbabc53fd8b89ee4f" version="5.0.0">
+  <folder name="Strategy" id="id-e62c993ecd8546d89d5245268533af57" type="strategy"/>
+  <folder name="Business" id="id-067e107ccfc3458d94ef09d92e6bffbc" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Cliente" id="id-675137c6657b4ae993932327477c3f78"/>
+    <element xsi:type="archimate:BusinessActor" name="Organizador do Evento" id="id-f5c2cbb32911484aaba8fe259834caac"/>
+    <element xsi:type="archimate:Contract" name="Aluger de BioBoxplus" id="id-62107aedecef44c3bfc9cb44f5fd9b4a"/>
+    <element xsi:type="archimate:BusinessActor" name="Event Organizer" id="id-75b2716180ab4cd8b2db1e6702f0f9ed"/>
+    <element xsi:type="archimate:BusinessActor" name="EUDIW" id="id-cc8c5139563a485085262178660d2f07"/>
+    <element xsi:type="archimate:BusinessActor" name="BGB" id="id-ee5a5d3a5d4f4c55b1625d202c0082da"/>
+    <element xsi:type="archimate:BusinessActor" name="BioBoxPlus" id="id-8f319ee89a484af6b9d0c8005ad2f409"/>
+    <element xsi:type="archimate:BusinessActor" name="Cliente" id="id-55fb8ed6efe24c399cd2ff55bbfab60e"/>
+    <element xsi:type="archimate:BusinessActor" name="Organizador do Evento" id="id-eef1d8bfe53c46b2a1ae321ac38e61a9"/>
+    <element xsi:type="archimate:BusinessRole" name="Sistema de Gerenciamento de Fluxo (SGF)" id="id-48a52ae94f774ed89ccc0b5c9f5adb40"/>
+    <element xsi:type="archimate:BusinessRole" name="Modelo de Machine Learning" id="id-d41b66c94ad842a9a65496294852591a"/>
+    <element xsi:type="archimate:BusinessRole" name="Notificador" id="id-92a8383d49e644f0b8920c0b541ae277"/>
+    <element xsi:type="archimate:BusinessObject" name="Torniquete Inteligente" id="id-14adf8b60f4b467db52f5bc177c7d9fe"/>
+    <element xsi:type="archimate:BusinessObject" name="EUDIW" id="id-06f050e2fd1a4caa987a7e66ef8135cf"/>
+    <element xsi:type="archimate:BusinessActor" name="Entidade Reguladora" id="id-b2e6a4023ba84da38ae2f8a1217140e0"/>
+    <element xsi:type="archimate:BusinessObject" name="Biobox Plus" id="id-88d395e68d624e41aa35586a1d6249f9"/>
+    <element xsi:type="archimate:BusinessActor" name="BGB (Empresa)" id="id-5bcd5a33053e47de999ef4164f70226a"/>
+    <element xsi:type="archimate:BusinessObject" name="Modelo de Pagamento" id="id-4a69ea1ed72b4308a10b48f862ee6d2b"/>
+    <element xsi:type="archimate:BusinessActor" name="Cliente" id="id-69dcf668e23d48658921448611b95cd8"/>
+    <element xsi:type="archimate:BusinessObject" name="Entrada Alternativa" id="id-5397403d10e34e91bab34cd15f820b41"/>
+    <element xsi:type="archimate:BusinessActor" name="BGB" id="id-2ecfe0ba68d6434fbdf0eeef80d56f37"/>
+    <element xsi:type="archimate:BusinessRole" name="entidade reguladora" id="id-bb545b346f044b1c9bf58200e7600020"/>
+    <element xsi:type="archimate:BusinessRole" name="Organizador do Evento" id="id-a53aa9bb271549e48687070a6b3dbfa7"/>
+    <element xsi:type="archimate:BusinessService" name="EUDIW" id="id-0b35d2fd6d7847a4b10d226130f1d94e"/>
+  </folder>
+  <folder name="Application" id="id-5838693befaa43dbb73e7e52f89945fd" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Fornecedores de Comunicação" id="id-ec16eb23b3f34c7ab7fd6b91c33f6c91"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Sistema de Pagamento/Validação (Digital Wallet)" id="id-4536791c6b34442e8fdc8da689d1e5f0"/>
+    <element xsi:type="archimate:ApplicationService" name="Parceiros de Tecnologia" id="id-a4ae7e06cbd44a2db1561f88a62a7527"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Sistema de gerenciamento de fluxo (SGF)" id="id-6f371586eb21456bbf07a17dc4a319f3"/>
+    <element xsi:type="archimate:ApplicationService" name="EUDIW" id="id-9f08b9ff745b4f8395b89926ab9b70ae"/>
+    <element xsi:type="archimate:DataObject" name="Modelo de Machine Learning" id="id-de4649d34bc7460397c6ca402711eb6a"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Notificador" id="id-662b6a34e2b141218705700add2d3eb5"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-896648f127bf4d4fb9db2590ad635b10" type="technology">
+    <element xsi:type="archimate:Device" name="Torniquete Inteligente" id="id-078c00e10ae8484fb90acce8edc60e66"/>
+    <element xsi:type="archimate:Device" name="Entrada Alternativa" id="id-b5419c2c74ed4c608d2b031e970efb97"/>
+    <element xsi:type="archimate:Device" name="Torniquete Inteligente" id="id-17d1c8f6bb004b93802789f239388792"/>
+    <element xsi:type="archimate:TechnologyService" name="Rede de Comunicação" id="id-15ab1c4d28c84eeba5510274f503449c"/>
+  </folder>
+  <folder name="Motivation" id="id-66e7fb93d6f2450a8e6a61dd6436f1ac" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Entidades Reguladoras" id="id-4f694fd8bfd048948a5d59c0a4d0c43a"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-7bd013cea778477b9732c853545a7d54" type="implementation_migration"/>
+  <folder name="Other" id="id-38e2b2551d1e44aeb121aa28451560ab" type="other"/>
+  <folder name="Relations" id="id-c5e32bf7fc594ee8aa55212b2f0fadaa" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-8822cd470dc84cbb9b19b4c3727094e7" source="id-62107aedecef44c3bfc9cb44f5fd9b4a" target="id-75b2716180ab4cd8b2db1e6702f0f9ed"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b458f33ceea0418db7101789b3e8cdd9" source="id-ee5a5d3a5d4f4c55b1625d202c0082da" target="id-62107aedecef44c3bfc9cb44f5fd9b4a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-5433fab432144a0c864c6f104fd2fecc" source="id-ee5a5d3a5d4f4c55b1625d202c0082da" target="id-8f319ee89a484af6b9d0c8005ad2f409"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-47fad645618b4b6eb24df0588dcf0914" source="id-cc8c5139563a485085262178660d2f07" target="id-8f319ee89a484af6b9d0c8005ad2f409"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-83ec68be869e4ac692f9f2cf9b104ab6" source="id-5bcd5a33053e47de999ef4164f70226a" target="id-88d395e68d624e41aa35586a1d6249f9"/>
+    <element xsi:type="archimate:AccessRelationship" id="id-e5c64cccec034c43ae62d906404a91ac" source="id-55fb8ed6efe24c399cd2ff55bbfab60e" target="id-88d395e68d624e41aa35586a1d6249f9"/>
+    <element xsi:type="archimate:AccessRelationship" id="id-7783094bcb36489ea85002a571f13c6c" source="id-55fb8ed6efe24c399cd2ff55bbfab60e" target="id-06f050e2fd1a4caa987a7e66ef8135cf"/>
+  </folder>
+  <folder name="Views" id="id-8275c59c02344c06be1ae4960db934e6" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-420a31a81710458097688889ce24a9e0">
+      <child xsi:type="archimate:DiagramObject" id="id-b88a019a33f64be596adf05088e81b50" archimateElement="id-69dcf668e23d48658921448611b95cd8">
+        <bounds x="852" y="224" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ba8f158affd04194aadf4dd6df34ac0d" archimateElement="id-5397403d10e34e91bab34cd15f820b41">
+        <bounds x="629" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ec0b4956a0784a4887c2c413bd47c81b" archimateElement="id-6f371586eb21456bbf07a17dc4a319f3">
+        <bounds x="616" y="468" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d91b3aad40f54427b3d255c90c49d05f" archimateElement="id-de4649d34bc7460397c6ca402711eb6a">
+        <bounds x="768" y="468" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e4ed6c4a25a34d568db3496a1dd1d24d" archimateElement="id-662b6a34e2b141218705700add2d3eb5">
+        <bounds x="924" y="468" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b7e30aa6ecaf4330a42fce749d719055" archimateElement="id-17d1c8f6bb004b93802789f239388792">
+        <bounds x="629" y="622" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e61a4731f3434852bdaf0c5f5b9cd142" archimateElement="id-15ab1c4d28c84eeba5510274f503449c">
+        <bounds x="833" y="622" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-18c8d40deb4d4ebfbe33b204e7439790" archimateElement="id-2ecfe0ba68d6434fbdf0eeef80d56f37">
+        <bounds x="684" y="224" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0e4f7220353c4dfcb9fcf391292ae280" archimateElement="id-bb545b346f044b1c9bf58200e7600020">
+        <bounds x="852" y="312" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-13d40a92d85c484ea780e40f454910cb" archimateElement="id-a53aa9bb271549e48687070a6b3dbfa7">
+        <bounds x="684" y="312" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f640d264ab754eca8500c98e5a7b803e" archimateElement="id-0b35d2fd6d7847a4b10d226130f1d94e">
+        <bounds x="852" y="384" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
